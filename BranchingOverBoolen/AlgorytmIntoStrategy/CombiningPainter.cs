@@ -9,13 +9,13 @@ namespace AlgorytmIntoStrategy
     {
         private IPainterSchleduler<TPainter> Scheduler { get; }
 
-        public IEnumerable<IPainter> availablePainters = _painters.Where(painters => painter.IsAvailable);
+        public IEnumerable<IPainter> availablePainters = _painters.Where(painter => painter.IsAvailable);
 
         public CombiningPainter(IEnumerable<ProportionalPainter> painters,
                                    IPainterSchleduler<TPainter> scheduler)
             : base(painters)
         {
-            base._reduce = this.Combine;
+            base._reduce = Combine;
             Scheduler = scheduler;
         }
 

@@ -1,13 +1,24 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BranchingOverBooleanIf", "CodeMoreObjectOriented\BranchingOverBooleanIf.csproj", "{AC7D1D1D-164D-48DD-BEFC-E46BC56E5562}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29209.62
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BranchingOverBooleanIf", "CodeMoreObjectOriented\BranchingOverBooleanIf.csproj", "{AC7D1D1D-164D-48DD-BEFC-E46BC56E5562}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FocusOnDomainLogicFor", "FocusOnDomainLogic\FocusOnDomainLogicFor.csproj", "{01C8D9C3-676A-4224-9E33-E3790AB89C54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FocusOnDomainLogicFor", "FocusOnDomainLogic\FocusOnDomainLogicFor.csproj", "{01C8D9C3-676A-4224-9E33-E3790AB89C54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UntanglingStructureCollectionObject", "UntanglingStructure\UntanglingStructureCollectionObject.csproj", "{525BC12A-9B47-4B8D-A3E6-FD82114501C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UntanglingStructureCollectionObject", "UntanglingStructure\UntanglingStructureCollectionObject.csproj", "{525BC12A-9B47-4B8D-A3E6-FD82114501C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgorytmIntoStrategy", "AlgorytmIntoStrategy\AlgorytmIntoStrategy.csproj", "{881B4EE1-5301-4C12-965F-509AFFE1EBF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlgorytmIntoStrategy", "AlgorytmIntoStrategy\AlgorytmIntoStrategy.csproj", "{881B4EE1-5301-4C12-965F-509AFFE1EBF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgrythmStrategy2", "AlgrythmStrategy2\AlgrythmStrategy2.csproj", "{82343ABF-D118-407D-8D57-E9C0FFA24829}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueObjectsDemo", "ValueObjectsDemo\ValueObjectsDemo.csproj", "{71939A9E-82FF-4656-8B8F-9424E3D1E00F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueObjectsDemoImmutableObjects", "ValueObjectsDemoImmutableObjects\ValueObjectsDemoImmutableObjects.csproj", "{F12EDA64-6EAE-4EB7-86E3-DAE7B9674D6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueObjectsDemoHashSet", "ValueObjectsDemoHashSet\ValueObjectsDemoHashSet.csproj", "{C6E68EF2-35C8-4986-9871-C65249366798}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueObjectsDemoEqualSymbol", "ValueObjectsDemoEqualSymbol\ValueObjectsDemoEqualSymbol.csproj", "{D49625DD-F4E1-4511-9483-1724358C950C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,5 +42,31 @@ Global
 		{881B4EE1-5301-4C12-965F-509AFFE1EBF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{881B4EE1-5301-4C12-965F-509AFFE1EBF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{881B4EE1-5301-4C12-965F-509AFFE1EBF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82343ABF-D118-407D-8D57-E9C0FFA24829}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82343ABF-D118-407D-8D57-E9C0FFA24829}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82343ABF-D118-407D-8D57-E9C0FFA24829}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82343ABF-D118-407D-8D57-E9C0FFA24829}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71939A9E-82FF-4656-8B8F-9424E3D1E00F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71939A9E-82FF-4656-8B8F-9424E3D1E00F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71939A9E-82FF-4656-8B8F-9424E3D1E00F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71939A9E-82FF-4656-8B8F-9424E3D1E00F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F12EDA64-6EAE-4EB7-86E3-DAE7B9674D6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F12EDA64-6EAE-4EB7-86E3-DAE7B9674D6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F12EDA64-6EAE-4EB7-86E3-DAE7B9674D6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F12EDA64-6EAE-4EB7-86E3-DAE7B9674D6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6E68EF2-35C8-4986-9871-C65249366798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6E68EF2-35C8-4986-9871-C65249366798}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6E68EF2-35C8-4986-9871-C65249366798}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6E68EF2-35C8-4986-9871-C65249366798}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D49625DD-F4E1-4511-9483-1724358C950C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D49625DD-F4E1-4511-9483-1724358C950C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D49625DD-F4E1-4511-9483-1724358C950C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D49625DD-F4E1-4511-9483-1724358C950C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1984D59D-9F1C-49E7-8ACD-5DAD9B0909B6}
 	EndGlobalSection
 EndGlobal

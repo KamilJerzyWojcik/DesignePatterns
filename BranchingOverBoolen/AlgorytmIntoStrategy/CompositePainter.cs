@@ -7,7 +7,7 @@ namespace AlgorytmIntoStrategy
     public class CompositePainter<TPainter> : IPainter
         where TPainter: IPainter
     {
-        public IEnumerable<TPainter> _painters { get; }
+        public static IEnumerable<TPainter> _painters { get; set; }
 
         public bool IsAvailable => _painters.Any(painter => painter.IsAvailable);
 
